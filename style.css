@@ -44,7 +44,11 @@ nav {
 }
 
 .nav-icon img {
-    width: 40px;
+    width: 50px;
+} 
+
+.nav-icon img:hover {
+    width: 70px;
 }
 
 .hamburger {
@@ -80,7 +84,6 @@ nav {
 
 .btns button {
     font-family: 'Inknut Antiqua', serif;
-    color: #fff;
     margin: 0 5px;
     border-radius: 10px;
     cursor: pointer;
@@ -119,7 +122,7 @@ nav {
 }
 
 /* Adaptation à un plus petit media (type smartphone) */
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
     nav {
         padding: 15px 20px;
         position: relative;
@@ -239,3 +242,4 @@ nav {
         width: 20px;
     }
 }
+
