@@ -72,11 +72,11 @@ nav {
     text-decoration: underline #D9984A;
 }
 
-/* Ajouter class actif (dans html) au a correspondant à la page en consultation 
+/* Ajouter class actif (dans html) au a correspondant à la page en consultation */
 .navlinks-container .actif {
     background: #D9984A;
     font-weight: bold;
-} */
+}
 
 .nav-btns {
     margin-left: auto;
