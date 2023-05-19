@@ -265,3 +265,9 @@ footer hr {
 footer a {
     text-decoration: none;
 }
+
+.copy {
+    background: #8C2B22;
+    color: #000;
+    font-size: 12px;
+}
