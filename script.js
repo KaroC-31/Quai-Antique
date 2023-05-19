@@ -1,6 +1,6 @@
 // Animation menu hamburger
 
-const hamburgerToggler = document.querySelector(".hamburger")
+const hamburgerToggler = document.querySelector(".hamburger");
 const navLinksContainer = document.querySelector(".navlinks-container");
 
 const toggleNav = () => {
@@ -23,7 +23,7 @@ new ResizeObserver(entries => {
 
 // Changement BG et border au clic sur icone de réservation
 
-const reservationToggler = document.querySelector(".icon-reservation")
+const reservationToggler = document.querySelector(".icon-reservation");
 
 const toggleReservation = () => {
     reservationToggler.style.background = "#D9984A";
@@ -34,7 +34,7 @@ reservationToggler.addEventListener("click", toggleReservation)
 
 // Changement BG au clic sur icone de connexion
 
-const connectionToggler = document.querySelector(".icon-connection")
+const connectionToggler = document.querySelector(".icon-connection");
 
 const toggleConnection = () => {
     connectionToggler.style.background = "#D9984A";
@@ -44,7 +44,7 @@ connectionToggler.addEventListener("click", toggleConnection)
 
 // Redirection vers la page de réservation au clic sur le bouton de réservation
 
-const redirecterBooking = document.getElementById("btn-reservation")
+const redirecterBooking = document.getElementById("btn-reservation");
 
 const redirectBooking = () => {
     window.location.href = "reservation.html";
@@ -54,7 +54,7 @@ redirecterBooking.addEventListener("click", redirectBooking)
 
 // Redirection vers la page de connexion au clic sur le bouton de connexion
 
-const redirecterConnection = document.getElementById("btn-connection")
+const redirecterConnection = document.getElementById("btn-connection");
 
 const redirectConnection = () => {
     window.location.href = "connexion.html";
