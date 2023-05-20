@@ -320,10 +320,6 @@ footer a {
 /* Adaptation du footer à un plus petit media (type smartphone) */
 
 @media (max-width: 992px) {
-    footer {
-        font-size: 10px;
-    }
-
     .hours-mobile {
         display: block;
     }
