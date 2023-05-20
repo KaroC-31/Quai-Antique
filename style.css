@@ -87,6 +87,7 @@ nav {
     margin: 0 5px;
     border-radius: 10px;
     cursor: pointer;
+    box-shadow: 4px 4px 4px black;
 }
 
 .btns img {
@@ -267,6 +268,37 @@ header {
     .subtitle {
         font-size: 22px;
     }
+}
+
+/* Style du paragraphe de bienvenue */
+
+.presentation {
+    background: #fff;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+.presentation p {
+    font-size: 16px;
+}
+
+.btn-apropos {
+    font-size: 14px;
+    font-family: 'Inknut Antiqua', serif;
+    background: #8C715A;
+    border: 1px solid #797803;
+    margin: 0 5px;
+    padding: 5px 5px;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 4px 4px 4px #bababa;
+}
+
+.btn-apropos:hover {
+    background: #D9984A;
+    border: 2px solid #797803;
 }
 
 /* Style du footer */
