@@ -44,11 +44,11 @@ nav {
     color: #000;
 }
 
-.nav-icon img {
-    width: 50px;
+.logo {
+    width: 60px;
 } 
 
-.nav-icon img:hover {
+.logo:hover {
     width: 70px;
 }
 
@@ -276,6 +276,22 @@ footer a {
     font-size: 12px;
 }
 
+.hours-mobile {
+    display: none;
+}
+
+.contact-mobile {
+    display: none;
+}
+
+.icon-contact {
+    width: 20px;
+}
+
+.icon-networks {
+    width: 30px;
+}
+
 /* Adaptation du footer à un plus petit media (type smartphone) */
 
 @media (max-width: 992px) {
@@ -283,8 +299,20 @@ footer a {
         font-size: 10px;
     }
 
-    /* .icon-contact {
+    .hours-mobile {
+        display: block;
+    }
+
+    .hours {
         display: none;
-    } */
+    }
+
+    .contact-mobile {
+        display: block;
+    }
+
+    .contact {
+        display: none;
+    }
 
 }
