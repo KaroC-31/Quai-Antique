@@ -17,7 +17,7 @@ body {
     font-family: 'Roboto Serif', serif;
 }
 
-/* Style général des boutons */
+/* Style général des boutons et éléments de déco */
 
 button {
     font-family: 'Inknut Antiqua', serif;
@@ -27,6 +27,28 @@ button {
 button:hover {
     background: #D9984A;
     border: 2px solid #797803;
+}
+
+.hr-block {
+    color: #D9984A;
+        width: 40%;
+        margin: auto;
+}
+
+.block {
+    background: #fff;
+    border-radius: 10px;
+}
+
+.card-title {
+    font-family: 'Inknut Antiqua', serif;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.subtitle-card {
+    font-family: 'Roboto Serif', serif;
+    font-size: 16px;
 }
 
 /* Style de la barre de navigation */
@@ -275,13 +297,13 @@ header {
     }
 }
 
-/* Style du paragraphe de bienvenue */
+/* Style du paragraphe de bienvenue (page accueil) */
 
 .presentation {
     background: #fff;
 }
 
-h2 {
+.title-presentation {
     font-size: 25px;
 }
 
@@ -303,28 +325,11 @@ h2 {
     box-shadow: 4px 4px 4px #bababa;
 }
 
-/* Style de la galerie de photos */
-
-.photo {
-    background: #fff;
-    border-radius: 10px;
-}
+/* Style de la galerie de photos (page accueil) */
 
 .card {
     border: none;
     box-shadow: 4px 4px 4px #bababa;
-}
-
-.card-title {
-    font-family: 'Inknut Antiqua', serif;
-    font-size: 20px;
-    font-weight: 600;
-}
-
-.photo hr {
-    color: #D9984A;
-    width: 40%;
-    margin: auto;
 }
 
 .card-img {
@@ -361,6 +366,18 @@ h2 {
     margin: 0 5px;
     border-radius: 10px;
     box-shadow: 4px 4px 4px #bababa;
+}
+
+/* Style du gros titre de chaque page (hors page accueil) */
+
+.block-title-page {
+    font-family: 'Inknut Antiqua', serif;
+    background: #fff;
+}
+
+.title-page {
+    font-size: 45px;
+    font-weight: bold;
 }
 
 /* Style du footer */
