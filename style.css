@@ -386,7 +386,7 @@ header {
 
 /* Style de la page menus */
 
-.title-menus{
+.title-menus, .title-carte {
     font-family: 'Roboto Serif', serif;
     font-size: 16px;
     font-weight: 600;
@@ -400,6 +400,13 @@ header {
     margin: 0 5px;
     border-radius: 10px;
     box-shadow: 4px 4px 4px #707070;
+}
+
+/* Style de la page carte */
+
+ul {
+    list-style: square;
+    list-style-position: inside;
 }
 
 /* Style du footer */
