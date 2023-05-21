@@ -334,6 +334,14 @@ header {
     box-shadow: 4px 4px 4px #bababa;
 }
 
+/* Adaptation de la présentation à un plus petit media (type smartphone) */
+
+@media (max-width: 900px) {
+    .presentation p {
+        font-size: 12px;
+    }
+}
+
 /* Style de la galerie de photos (page accueil) */
 
 .card-img {
@@ -384,6 +392,14 @@ header {
     font-weight: bold;
 }
 
+/* Adaptation de ce gros titre de chaque page à un plus petit media (type smartphone) */
+
+@media (max-width: 900px) {
+    .title-page {
+        font-size: 25px;
+    }
+}
+
 /* Style de la page menus */
 
 .title-menus, .title-carte {
@@ -407,6 +423,14 @@ header {
 ul {
     list-style: square;
     list-style-position: inside;
+}
+
+/* Adaptation de la page carte et menus à un plus petit media (type smartphone) */
+
+@media (max-width: 900px) {
+    .block-card {
+        font-size: 12px;
+    }
 }
 
 /* Style du footer */
