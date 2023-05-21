@@ -60,6 +60,14 @@ button:hover {
     font-size: 16px;
 }
 
+/* Adaptation des titres des cards à un plus petit media (type smartphone) */
+
+@media (max-width: 900px) {
+    .card-title {
+        font-size: 18px;
+    }
+}
+
 /* Style de la barre de navigation */
 
 nav {
