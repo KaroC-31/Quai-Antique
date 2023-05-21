@@ -393,7 +393,7 @@ header {
     text-decoration: underline;
 }
 
-.btn-carte {
+.btn-carte, .btn-menus {
     background: #8C715A;
     font-size: 14px;
     border: 1px solid #797803;
