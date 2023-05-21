@@ -40,6 +40,15 @@ button:hover {
     border-radius: 10px;
 }
 
+.card {
+    border: none;
+    box-shadow: 4px 4px 4px #bababa;
+}
+
+.block-card {
+    border: 1px solid #D9984A;
+}
+
 .card-title {
     font-family: 'Inknut Antiqua', serif;
     font-size: 25px;
@@ -327,11 +336,6 @@ header {
 
 /* Style de la galerie de photos (page accueil) */
 
-.card {
-    border: none;
-    box-shadow: 4px 4px 4px #bababa;
-}
-
 .card-img {
     height: 180px;
 }
@@ -378,6 +382,24 @@ header {
 .title-page {
     font-size: 45px;
     font-weight: bold;
+}
+
+/* Style de la page menus */
+
+.title-menus{
+    font-family: 'Roboto Serif', serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.btn-carte {
+    background: #8C715A;
+    font-size: 14px;
+    border: 1px solid #797803;
+    margin: 0 5px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px #707070;
 }
 
 /* Style du footer */
