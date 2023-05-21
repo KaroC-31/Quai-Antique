@@ -310,6 +310,11 @@ h2 {
     border-radius: 10px;
 }
 
+.card {
+    border: none;
+    box-shadow: 4px 4px 4px #bababa;
+}
+
 .card-title {
     font-family: 'Inknut Antiqua', serif;
     font-size: 20px;
