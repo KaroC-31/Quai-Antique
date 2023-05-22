@@ -441,6 +441,14 @@ ul {
     }
 }
 
+/* Style de la page à propos */
+
+.photo-apropos {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px #bababa;
+}
+
 /* Style du footer */
 
 footer {
