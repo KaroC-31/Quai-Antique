@@ -449,6 +449,16 @@ ul {
     box-shadow: 4px 4px 4px #bababa;
 }
 
+.text-apropos {
+    font-size: 16px;
+}
+
+@media (max-width: 900px) {
+    .text-apropos {
+        font-size: 12px;
+    }
+}
+
 /* Style du footer */
 
 footer {
