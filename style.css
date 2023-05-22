@@ -444,10 +444,16 @@ ul {
 /* Style de la page à propos */
 
 .photo-apropos {
+    width: 220px;
     border: none;
     border-radius: 10px;
     box-shadow: 4px 4px 4px #bababa;
+    transition: transform .1s;
 }
+
+.photo-apropos:hover{
+    transform: scale(1.5);
+    }
 
 .text-apropos {
     font-size: 16px;
