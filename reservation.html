@@ -78,7 +78,9 @@
         <!-- Formulaire de réservation - Start -->
         <section class="block container container-xl my-5 text-center pt-5 pb-4 px-5">
             <p class="detail">Nous avons besoin de quelques précisions...</p>
-            <div class="row row-cols-1 row-cols-md-2 pt-4 p-2">
+            <hr class="hr-block border-2 opacity-100 p-2">
+            <!-- Nombre de convives - Start -->
+            <div class="row row-cols-1 row-cols-md-2 pt-2">
                 <div class="col">
                     <label for="number">Nombre de convives *</label>
                 </div>
@@ -86,7 +88,9 @@
                     <input id="number" type="number" value="2" min="1" max="10" required>
                 </div>
             </div>
-            <div class="row row-cols-1 row-cols-md-2 pt-4 p-2">
+            <!-- Nombre de convives - End -->
+            <!-- Choix de la date - Start -->
+            <div class="row row-cols-1 row-cols-md-2 pt-4 pb-2">
                 <div class="col">
                     <label for="date">Date *</label>
                 </div>
@@ -94,7 +98,98 @@
                     <input id="date" type="date" required>
                 </div>
             </div>
-            
+            <!-- Choix de la date - End -->
+            <!-- Choix de l'heure - Start -->
+            <div class="row row-cols-1 row-cols-md-2 pt-4 p-2">
+                <div class="col">
+                    <p>Heure *</p>
+                </div>
+                <div class="col">
+                    <div>
+                        <p class="m-3">Matin</p>
+                        <input type="radio" class="btn-check" name="heure" id="m1" autocomplete="off" checked>
+                        <label class="btn btn-statut m-2" for="m1">12:00</label>
+                        <input type="radio" class="btn-check" name="heure" id="m2" autocomplete="off">
+                        <label class="btn btn-statut m-2" for="m2">12:15</label>
+                        <input type="radio" class="btn-check" name="heure" id="m3" autocomplete="off">
+                        <label class="btn btn-statut m-2" for="m3">12:30</label>
+                        <input type="radio" class="btn-check" name="heure" id="m4" autocomplete="off">
+                        <label class="btn btn-statut m-2" for="m4">12:45</label>
+                        <input type="radio" class="btn-check" name="heure" id="m5" autocomplete="off">
+                        <label class="btn btn-statut m-2" for="m5">13:00</label>
+                    </div>
+                    <div>
+                        <p class="m-3">Après-midi</p>
+                        <input type="radio" class="btn-check" name="heure" id="ap1" autocomplete="off">
+                        <label class="btn btn-statut m-2" for="ap1">19:00</label>
+                        <input type="radio" class="btn-check" name="heure" id="ap2" autocomplete="off">
+                        <label class="btn btn-statut m-2" for="ap2">19:15</label>
+                        <input type="radio" class="btn-check" name="heure" id="ap3" autocomplete="off">
+                        <label class="btn btn-statut m-2" for="ap3">19:30</label>
+                        <input type="radio" class="btn-check" name="heure" id="ap4" autocomplete="off">
+                        <label class="btn btn-statut m-2" for="ap4">19:45</label>
+                        <input type="radio" class="btn-check" name="heure" id="ap5" autocomplete="off">
+                        <label class="btn btn-statut m-2" for="ap5">20:00</label>
+                        <input type="radio" class="btn-check" name="heure" id="ap6" autocomplete="off">
+                        <label class="btn btn-statut m-2" for="ap6">20:15</label>
+                        <input type="radio" class="btn-check" name="heure" id="ap7" autocomplete="off">
+                        <label class="btn btn-statut m-2" for="ap7">20:30</label>
+                        <input type="radio" class="btn-check" name="heure" id="ap8" autocomplete="off">
+                        <label class="btn btn-statut m-2" for="ap8">20:45</label>
+                        <input type="radio" class="btn-check" name="heure" id="ap9" autocomplete="off">
+                        <label class="btn btn-statut m-2" for="ap9">21:00</label>
+                    </div>
+                </div>
+            </div>
+            <!-- Choix de l'heure - End -->
+            <hr class="hr-block border-2 opacity-100 my-2 p-2">
+            <!-- Allergies - Start -->
+            <p>*Avez-vous des allergies alimentaires ?</p>
+            <div class="form-check form-check-inline mb-3">
+                <div>
+                    <input class="form-check-input" type="radio" name="aucune" id="aucune" checked>
+                    <label class="form-check-label" for="aucune">
+                        Aucune
+                    </label>
+                </div>
+                <div>
+                    <input class="form-check-input" type="radio" name="lactose" id="lactose">
+                    <label class="form-check-label" for="lactose">
+                        Lactose
+                    </label>
+                </div>
+                <div>
+                    <input class="form-check-input" type="radio" name="gluten" id="gluten">
+                    <label class="form-check-label" for="gluten">
+                        Gluten
+                    </label>
+                </div>
+                <div>
+                    <input class="form-check-input" type="radio" name="mer" id="mer">
+                    <label class="form-check-label" for="mer">
+                        Fruits de mer
+                    </label>
+                </div>
+                <div>
+                    <input class="form-check-input" type="radio" name="autres" id="autres">
+                    <label class="form-check-label" for="autres">
+                        Autres, précisez :
+                    </label>
+                    <input type="text">
+                </div>
+            </div>
+            <!-- Allergies - End -->
+            <hr class="hr-block border-2 opacity-100 my-2 p-2">
+            <!-- Boutons de confirmation et annulation - Start -->
+            <div>
+                <button class="btn-confirm text-white mx-3" type="submit">
+                    Confirmer
+                </button>
+                <button class="btn-delete text-white mx-3" type="reset">
+                    Annuler
+                </button>
+            </div>
+            <!-- Boutons de confirmation et annulation - End -->
             <p class="text-end pt-3">*Tous les champs sont obligatoires</p>
         </section>
         <!-- Formulaire de réservation - End -->
