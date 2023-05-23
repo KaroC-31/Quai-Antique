@@ -500,6 +500,24 @@ ul {
     font-style: italic;
 }
 
+/* Style de la page de réservation */
+
+.detail {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+}
+
+#number, #date {
+    border-radius: 5px;
+}
+
+#number {
+    width: 3em;
+}
+
+
+
 /* Style du footer */
 
 footer {
