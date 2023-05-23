@@ -72,7 +72,52 @@
     <!-- Header - End -->
     <!-- Main page content - Start -->
     <main>
-       
+        <section class="container-fluid block-title-page p-4">
+            <h2 class="title-page text-black text-center p-4">Connexion</h2>
+        </section>
+        <!-- Formulaire de connexion - Start -->
+        <section class="block container container-xl my-5 text-center pt-5 pb-4 px-5">
+            <div class="row row-cols-1 row-cols-md-2 pt-4 p-2">
+                <div class="col">
+                    <p>Qui êtes-vous ? *</p>
+                </div>
+                <div class="col">
+                    <input type="radio" class="btn-check" name="statut" id="client" autocomplete="off" checked>
+                    <label class="btn btn-statut mx-3" for="client">Client</label>
+                    <input type="radio" class="btn-check" name="statut" id="admin" autocomplete="off">
+                    <label class="btn btn-statut mx-3" for="admin">Administrateur</label>
+                </div>
+            </div>
+            <div class="mb-3 row row-cols-1 row-cols-md-2 p-2">
+                <label for="email" class="col-sm-2 col-form-label">Identifiant *</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control text-center" id="email" placeholder="Entrez votre e-mail" required>
+                </div>
+            </div>
+            <div class="mb-3 row row-cols-1 row-cols-md-2 p-2">
+                <label for="password" class="col-sm-2 col-form-label">Mot de passe *</label>
+                <div class="col-sm-10">
+                  <input type="password" class="form-control text-center" id="password" aria-labelledby="passwordHelp" placeholder="**************" required>
+                  <div id="passwordHelp" class="form-text help-text">
+                    Votre mot de passe doit comporter entre 8 et 20 caractères, contenir des lettres et des chiffres et ne doit pas contenir d'espaces ou de caractères spéciaux.
+                  </div>
+                </div>
+            </div>
+            <!-- Formulaire de connexion - End -->
+            <hr class="hr-block border-2 opacity-100 p-2 pb-4">
+            <!-- Boutons de confirmation et annulation - Start -->
+            <div>
+                <button class="btn-confirm text-white mx-3" type="submit">
+                    Confirmer
+                </button>
+                <button class="btn-delete text-white mx-3" type="reset">
+                    Annuler
+                </button>
+            </div>
+            <!-- Boutons de confirmation et annulation - End -->
+            <p class="text-end pt-3">*Tous les champs sont obligatoires</p>
+        </section>
+        
     </main>
     <!-- Main page content - End -->
     <!-- Footer - Start -->

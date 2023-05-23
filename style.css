@@ -31,8 +31,8 @@ button:hover {
 
 .hr-block {
     color: #D9984A;
-        width: 40%;
-        margin: auto;
+    width: 40%;
+    margin: auto;
 }
 
 .block {
@@ -463,6 +463,41 @@ ul {
     .text-apropos {
         font-size: 12px;
     }
+}
+
+/* Style page de connexion */
+
+.btn-statut {
+    box-shadow: 4px 4px 4px #bababa;
+}
+
+.help-text {
+    font-size: 12px;
+    font-style: italic;
+}
+
+.btn-confirm, .btn-delete {
+    margin: 0 5px;
+    border-radius: 10px;
+    border: 1px solid #797803;
+    box-shadow: 4px 4px 4px #bababa;
+}
+
+.btn-confirm {
+    font-size: 14px;
+    background: #8C2B22;
+    padding: 10px 15px;
+}
+
+.btn-delete {
+    font-size: 12px;
+    background: #8C715A;
+    padding: 5px 5px;
+}
+
+.text-end {
+    font-size: 12px;
+    font-style: italic;
 }
 
 /* Style du footer */
